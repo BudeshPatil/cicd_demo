@@ -47,8 +47,8 @@ exports.nexaitxml = async (req, res) => {
     let page_url;
     if (totalPage[p].page_name == "home") {
       page_url = base_url;
-    } else if (totalPage[p].page_name == "blog") {
-      page_url = base_url + "/blog";
+    } else if (totalPage[p].page_name == "brand") {
+      page_url = base_url + "/brand";
     } else if (totalPage[p].page_name == "problem") {
       page_url = base_url + "/problem";
     } else if (totalPage[p].page_name == "solution") {
