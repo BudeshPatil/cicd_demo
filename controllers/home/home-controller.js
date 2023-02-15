@@ -49,8 +49,8 @@ exports.nexaitxml = async (req, res) => {
       page_url = base_url;
     } else if (totalPage[p].page_name == "brand") {
       page_url = base_url + "/brand";
-    } else if (totalPage[p].page_name == "problem") {
-      page_url = base_url + "/problem";
+    } else if (totalPage[p].page_name == "projects") {
+      page_url = base_url + "/projects";
     } else if (totalPage[p].page_name == "solution") {
       page_url = base_url + "/solution";
     } else if (totalPage[p].page_name == "contact-us") {
