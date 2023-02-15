@@ -40,7 +40,7 @@ exports.nexaitxml = async (req, res) => {
   let totalPage = await PageModal.find({ isDeleted: false });
   let totalTag = await TagModal.find({ isDeleted: false });
   let totalauthor = await AuthorModal.find({ isDeleted: false });
-  let base_url = "https://nexaitcargo.co";
+  let base_url = "https://test.co";
 
   // All Page
   for (let p = 0; p < totalPage.length; p++) {
