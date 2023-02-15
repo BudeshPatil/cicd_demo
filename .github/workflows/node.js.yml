@@ -29,6 +29,7 @@ jobs:
         key: ${{secrets.GOOGLE_CLOUD_VM_SSH}}
         host: ${{secrets.GOOGLE_CLOUD_VM_IP}}
         username: ${{secrets.GOOGLE_CLOUD_VM_USERNAME}}
+        port: ${{ secrets.GOOGLE_CLOUD_VM_PORT }}
         script: |
           cd /www/wwwroot/html/cicd_demo
           git pull
